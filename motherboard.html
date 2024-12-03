@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motherboards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-fixed-top is-primary">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html"><strong>ServerHub</strong></a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="cpu.html">CPUs</a>
+                <a class="navbar-item" href="gpu.html">GPUs</a>
+                <a class="navbar-item" href="disks.html">Disks</a>
+                <a class="navbar-item" href="psu.html">PSUs</a>
+                <a class="navbar-item" href="ram.html">RAMs</a>
+                <a class="navbar-item" href="storage-controllers.html">Storage Controllers</a>
+                <a class="navbar-item" href="about.html">About RAID</a>
+                <a class="navbar-item" href="about_me.html">About me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section class="section">
+        <div class="container">
+            <h1 class="title" style="padding-top: 3%;">Motherboards</h1>
+            <p>
+                The motherboard is the central circuit board in your computer that connects all the hardware components together. It determines compatibility with processors, memory, and other peripherals. Here, you can find a variety of motherboards tailored to different needs, whether for gaming, professional use, or general computing.
+            </p>
+            <h2 class="subtitle" style="padding-top: 3%;">Key Features of a Motherboard</h2>
+            <p>
+                <strong>Form Factor:</strong> The physical size and layout of the motherboard. Common types include ATX, microATX, and mini-ITX.
+            </p>
+            <p>
+                <strong>Socket Type:</strong> The type of connector used for the processor. Different CPUs require different socket types.
+            </p>
+            <p>
+                <strong>Chipset:</strong> The chipset determines the motherboard's compatibility with certain processors and features like RAM and expansion slots.
+            </p>
+            <p>
+                <strong>Expansion Slots:</strong> These slots allow you to add additional components like graphics cards, network cards, and more.
+            </p>
+        </div>
+    </section>
+
+    <!-- Motherboard Filtering Section -->
+    <section class="section">
+        <div class="container filter-container">
+            <div class="columns">
+                <!-- Filter by Form Factor -->
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Filter by Form Factor</label>
+                        <div class="control">
+                            <div class="select">
+                                <select id="motherboardFilterFormFactor">
+                                    <option value="all">All</option>
+                                    <option value="ATX">ATX</option>
+                                    <option value="microATX">microATX</option>
+                                    <option value="miniITX">miniITX</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Filter by Socket Type -->
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Filter by Socket Type</label>
+                        <div class="control">
+                            <div class="select">
+                                <select id="motherboardFilterSocket">
+                                    <option value="all">All</option>
+                                    <option value="LGA1200">LGA1200</option>
+                                    <option value="LGA1700">LGA1700</option>
+                                    <option value="AM4">AM4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Filter by Chipset -->
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Filter by Chipset</label>
+                        <div class="control">
+                            <div class="select">
+                                <select id="motherboardFilterChipset">
+                                    <option value="all">All</option>
+                                    <option value="Z590">Z590</option>
+                                    <option value="B550">B550</option>
+                                    <option value="X570">X570</option>
+                                    <option value="Z690">Z690</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Filter by Price -->
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Filter by Price</label>
+                        <div class="control">
+                            <div class="select">
+                                <select id="motherboardFilterPrice">
+                                    <option value="all">All</option>
+                                    <option value="100">Up to $100</option>
+                                    <option value="300">Up to $300</option>
+                                    <option value="500">Up to $500</option>
+                                    <option value="1000">Up to $1,000</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Motherboard Product Listings Section -->
+    <section class="section">
+        <div class="container">
+            <div id="motherboardList">
+                <!-- Example Motherboard 1 (ATX, LGA1200) -->
+                <div class="motherboard-item ATX LGA1200">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">ASUS ROG Strix Z590-E</p>
+                            <p class="subtitle">ATX, LGA1200</p>
+                            <div class="content">
+                                <p><strong>Form Factor:</strong> ATX</p>
+                                <p><strong>Socket Type:</strong> LGA1200</p>
+                                <p><strong>Chipset:</strong> Z590</p>
+                                <p><strong>Price:</strong> $300</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example Motherboard 2 (microATX, AM4) -->
+                <div class="motherboard-item microATX AM4">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">MSI B550M PRO-VDH WiFi</p>
+                            <p class="subtitle">microATX, AM4</p>
+                            <div class="content">
+                                <p><strong>Form Factor:</strong> microATX</p>
+                                <p><strong>Socket Type:</strong> AM4</p>
+                                <p><strong>Chipset:</strong> B550</p>
+                                <p><strong>Price:</strong> $100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example Motherboard 3 (miniITX, LGA1700) -->
+                <div class="motherboard-item miniITX LGA1700">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">Gigabyte Z690I AORUS Ultra</p>
+                            <p class="subtitle">miniITX, LGA1700</p>
+                            <div class="content">
+                                <p><strong>Form Factor:</strong> miniITX</p>
+                                <p><strong>Socket Type:</strong> LGA1700</p>
+                                <p><strong>Chipset:</strong> Z690</p>
+                                <p><strong>Price:</strong> $500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example Motherboard 4 (ATX, X570) -->
+                <div class="motherboard-item ATX X570">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">MSI MEG X570 ACE</p>
+                            <p class="subtitle">ATX, X570</p>
+                            <div class="content">
+                                <p><strong>Form Factor:</strong> ATX</p>
+                                <p><strong>Socket Type:</strong> AM4</p>
+                                <p><strong>Chipset:</strong> X570</p>
+                                <p><strong>Price:</strong> $350</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Example Motherboard 5 (ATX, LGA1200) -->
+                <div class="motherboard-item ATX LGA1200">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">Gigabyte Z590 AORUS Elite</p>
+                            <p class="subtitle">ATX, LGA1200</p>
+                            <div class="content">
+                                <p><strong>Form Factor:</strong> ATX</p>
+                                <p><strong>Socket Type:</strong> LGA1200</p>
+                                <p><strong>Chipset:</strong> Z590</p>
+                                <p><strong>Price:</strong> $220</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Example Motherboard 6 (microATX, B550) -->
+                <div class="motherboard-item microATX B550">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">ASRock B550M Steel Legend</p>
+                            <p class="subtitle">microATX, B550</p>
+                            <div class="content">
+                                <p><strong>Form Factor:</strong> microATX</p>
+                                <p><strong>Socket Type:</strong> AM4</p>
+                                <p><strong>Chipset:</strong> B550</p>
+                                <p><strong>Price:</strong> $140</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/motherboard.js"></script>
+
+</body>
+</html>
