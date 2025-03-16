@@ -1,0 +1,101 @@
+// Define variables
+$main-padding: 20px;
+$container-max-width: 1200px;
+$footer-background: #333;
+$footer-color: #fff;
+$border-radius: 8px;
+$box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+$gap: 20px;
+$min-width: 200px;
+$margin-bottom: 30px;
+
+// Body styles
+body {
+    padding-top: $main-padding;
+    padding-bottom: $main-padding;
+}
+
+// Container styles
+.container {
+    max-width: $container-max-width;
+    margin: 0 auto;
+}
+
+// Main content card
+#main .card-content {
+    text-align: center;
+}
+
+// Filter container
+.filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap;
+
+    .field {
+        flex: 1 1 $min-width;
+
+        label {
+            display: block;
+        }
+    }
+}
+
+// Feature list styles
+.feature-list {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        margin: 10px 0;
+    }
+}
+
+// Footer styles
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: $footer-background;
+    color: $footer-color;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+// Motherboard item styles
+.motherboard-item {
+    margin-bottom: $margin-bottom;
+
+    .card {
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+}
+
+// CPU item styles
+.cpu-item {
+    margin-bottom: $margin-bottom;
+}
+
+// RAM item styles
+.ram-item {
+    margin-bottom: $margin-bottom;
+}
+
+// Disk item styles
+.disk-item {
+    margin-bottom: $margin-bottom;
+
+    .card {
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+}
