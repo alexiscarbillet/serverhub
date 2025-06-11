@@ -51,6 +51,14 @@ export default function AboutMe() {
                 >
                   <span className="icon"><i className="fa fa-code"></i></span>
                 </a>
+                <a
+                  href="https://alexis-carbillet.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button is-medium is-secondary"
+                >
+                  <span className="icon"><i className="fa fa-home"></i></span>
+                </a>
               </div>
             </div>
           </div>
