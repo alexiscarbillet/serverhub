@@ -14,6 +14,7 @@ export default function Navbar() {
           <Link className="navbar-item" to="/cpu">CPUs</Link>
           <Link className="navbar-item" to="/gpu">GPUs</Link>
           <Link className="navbar-item" to="/npu">NPUs</Link>
+          <Link className="navbar-item" to="/vpu">VPUs</Link>
           <Link className="navbar-item" to="/disks">Disks</Link>
           <Link className="navbar-item" to="/motherboard">Motherboards</Link>
           <Link className="navbar-item" to="/psu">PSUs</Link>
