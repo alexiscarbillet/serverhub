@@ -45,9 +45,9 @@ export default function App() {
             <div className="column">
               <div className="card">
                 <div className="card-content">
-                  <p className="title">VPU Models</p>
-                  <p>Find the best VPUs for your server setup.</p>
-                  <Link to="/vpu" className="button is-primary">Explore VPUs</Link>
+                  <p className="title">TPU Models</p>
+                  <p>Find the best TPUs for your server setup.</p>
+                  <Link to="/tpu" className="button is-primary">Explore TPUs</Link>
                 </div>
               </div>
             </div>
@@ -55,6 +55,15 @@ export default function App() {
 
           {/* Second Line of Cards */}
           <div className="columns">
+            <div className="column">
+              <div className="card">
+                <div className="card-content">
+                  <p className="title">VPU Models</p>
+                  <p>Find the best VPUs for your server setup.</p>
+                  <Link to="/vpu" className="button is-primary">Explore VPUs</Link>
+                </div>
+              </div>
+            </div>
             <div className="column">
               <div className="card">
                 <div className="card-content">
@@ -82,6 +91,8 @@ export default function App() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="columns">
             <div className="column">
               <div className="card">
                 <div className="card-content">
@@ -91,8 +102,6 @@ export default function App() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="columns">
             <div className="column">
               <div className="card">
                 <div className="card-content">

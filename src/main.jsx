@@ -6,6 +6,7 @@ import App from './App.jsx';
 import CPU from './CPU.jsx'
 import GPU from './GPU.jsx'
 import NPU from './NPU.jsx'
+import TPU from './TPU.jsx'
 import VPU from './VPU.jsx'
 import Disks from './Disks.jsx'
 import Motherboard from './Motherboard.jsx'
@@ -27,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/cpu" element={<CPU />} />
         <Route path="/gpu" element={<GPU />} />
         <Route path="/npu" element={<NPU />} />
+        <Route path="/tpu" element={<TPU />} />
         <Route path="/vpu" element={<VPU />} />
         <Route path="/disks" element={<Disks />} />
         <Route path="/motherboard" element={<Motherboard />} />
