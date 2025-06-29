@@ -76,6 +76,26 @@ export default function App() {
             <div className="column">
               <div className="card">
                 <div className="card-content">
+                  <p className="title">ASIC</p>
+                  <p>Explore ASIC software.</p>
+                  <Link to="/asic" className="button is-primary">Explore ASICs</Link>
+                </div>
+              </div>
+            </div>
+            <div className="column">
+              <div className="card">
+                <div className="card-content">
+                  <p className="title">FPGA</p>
+                  <p>Explore FPGA hardware.</p>
+                  <Link to="/fpga" className="button is-primary">Explore FPGAs</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column">
+              <div className="card">
+                <div className="card-content">
                   <p className="title">Motherboard</p>
                   <p>Explore server motherboards, compatibility, and expansion options.</p>
                   <Link to="/motherboard" className="button is-primary">Explore Motherboards</Link>
@@ -91,8 +111,6 @@ export default function App() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="columns">
             <div className="column">
               <div className="card">
                 <div className="card-content">
@@ -102,6 +120,8 @@ export default function App() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="columns">
             <div className="column">
               <div className="card">
                 <div className="card-content">

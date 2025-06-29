@@ -42,7 +42,9 @@ export default function Navbar() {
           </div>
 
           {/* Other individual items */}
+          <Link className="navbar-item" to="/asic">ASICs</Link>
           <Link className="navbar-item" to="/disks">Disks</Link>
+          <Link className="navbar-item" to="/fpga">FPGAs</Link>
           <Link className="navbar-item" to="/motherboard">Motherboards</Link>
           <Link className="navbar-item" to="/psu">PSUs</Link>
           <Link className="navbar-item" to="/ram">RAMs</Link>

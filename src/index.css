@@ -70,4 +70,8 @@ footer {
 }
 .disk-item .card-content {
   padding: 20px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.card-content p {
+  margin-bottom: 0.5rem;
+}

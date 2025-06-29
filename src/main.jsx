@@ -18,6 +18,8 @@ import StorageControllers from './StorageControllers.jsx';
 import './index.css';
 import 'bulma/css/bulma.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ASICSoftware from './ASIC.jsx';
+import FPGAHardware from './FPGA.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -30,7 +32,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/npu" element={<NPU />} />
         <Route path="/tpu" element={<TPU />} />
         <Route path="/vpu" element={<VPU />} />
+        <Route path="/asic" element={<ASICSoftware />} />
         <Route path="/disks" element={<Disks />} />
+        <Route path="/fpga" element={<FPGAHardware />} />
         <Route path="/motherboard" element={<Motherboard />} />
         <Route path="/psu" element={<PSUs />} />
         <Route path="/ram" element={<RamModels />} />
