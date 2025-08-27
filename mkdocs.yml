@@ -1,0 +1,184 @@
+site_name: AC-ServerHub
+site_url: https://ac-serverhub.com/
+
+nav:
+  - Home: index.md
+  - CloudCompute:
+    - AWS:
+      - GeneralPurpose:
+        - M5a: CloudCompute/AWS/GeneralPurpose/M5a.md
+        - M5ad: CloudCompute/AWS/GeneralPurpose/M5ad.md
+      - ComputeOptimized:
+        - C6g: CloudCompute/AWS/ComputeOptimized/C6g.md
+        - C7g: CloudCompute/AWS/ComputeOptimized/C7g.md
+        - C8g: CloudCompute/AWS/ComputeOptimized/C8g.md
+      - MemoryOptimized:
+        - R5a: CloudCompute/AWS/MemoryOptimized/R5a.md
+        - R6g: CloudCompute/AWS/MemoryOptimized/R6g.md
+      - StorageOptimized:
+        - I8g: CloudCompute/AWS/StorageOptimized/I8g.md
+      - GPUAccelerated:
+        - G4dn: CloudCompute/AWS/GPUAccelerated/G4dn.md
+        - G5: CloudCompute/AWS/GPUAccelerated/G5.md
+        - G6: CloudCompute/AWS/GPUAccelerated/G6.md
+        - P4d: CloudCompute/AWS/GPUAccelerated/P4d.md
+        - P5: CloudCompute/AWS/GPUAccelerated/P5.md
+        - P6: CloudCompute/AWS/GPUAccelerated/P6.md
+      - AIInference:
+        - Trn1: CloudCompute/AWS/AIInference/Trn1.md
+        - Trn2: CloudCompute/AWS/AIInference/Trn2.md
+        - Inf2: CloudCompute/AWS/AIInference/Inf2.md
+
+    - GCP:
+      - GeneralPurpose:
+        - N1: CloudCompute/GCP/GeneralPurpose/N1.md
+        - N2: CloudCompute/GCP/GeneralPurpose/N2.md
+        - N2D: CloudCompute/GCP/GeneralPurpose/N2D.md
+        - N4: CloudCompute/GCP/GeneralPurpose/N4.md
+        - E2: CloudCompute/GCP/GeneralPurpose/E2.md
+        - Tau T2D: CloudCompute/GCP/GeneralPurpose/TauT2D.md
+      - ComputeOptimized:
+        - C2: CloudCompute/GCP/ComputeOptimized/C2.md
+        - C2D: CloudCompute/GCP/ComputeOptimized/C2D.md
+        - H3: CloudCompute/GCP/ComputeOptimized/H3.md
+      - MemoryOptimized:
+        - M1: CloudCompute/GCP/MemoryOptimized/M1.md
+        - M2: CloudCompute/GCP/MemoryOptimized/M2.md
+        - M3: CloudCompute/GCP/MemoryOptimized/M3.md
+        - X4: CloudCompute/GCP/MemoryOptimized/X4.md
+      - StorageOptimized:
+        - Z3: CloudCompute/GCP/StorageOptimized/Z3.md
+      - AcceleratorOptimized:
+        - A2: CloudCompute/GCP/AcceleratorOptimized/A2.md
+        - A3: CloudCompute/GCP/AcceleratorOptimized/A3.md
+        - A4: CloudCompute/GCP/AcceleratorOptimized/A4.md
+        - G2: CloudCompute/GCP/AcceleratorOptimized/G2.md
+
+    - Azure:
+      - MemoryOptimized:
+        - Mv2-series: CloudCompute/Azure/MemoryOptimized/Mv2-series.md
+      - GPUVMs:
+        - NC-series: CloudCompute/Azure/GPUVMs/NC-series.md
+        - ND-series: CloudCompute/Azure/GPUVMs/ND-series.md
+        - NV-series: CloudCompute/Azure/GPUVMs/NV-series.md
+        - NG-series: CloudCompute/Azure/GPUVMs/NG-series.md
+
+  - CPU:
+    - Intel:
+      - Core i5: CPU/Intel/Corei5.md
+      - Core i7: CPU/Intel/Corei7.md
+      - Core i9: CPU/Intel/Corei9.md
+      - Xeon Silver: CPU/Intel/XeonSilver.md
+      - Xeon Gold: CPU/Intel/XeonGold.md
+      - Xeon Platinum: CPU/Intel/XeonPlatinum.md
+    - AMD:
+      - Ryzen 5 9600X: CPU/AMD/Ryzen59600X.md
+      - Ryzen 7 9700X: CPU/AMD/Ryzen79700X.md
+      - Ryzen 9 9900X: CPU/AMD/Ryzen99900X.md
+      - Ryzen 9 9950X: CPU/AMD/Ryzen99950X.md
+      - EPYC 9554: CPU/AMD/EPYC9554.md
+      - EPYC 9754: CPU/AMD/EPYC9754.md
+      - Ryzen AI 9 HX 370: CPU/AMD/RyzenAI9HX370.md
+
+  - GPU:
+    - Nvidia:
+      - RTX 3050: GPU/Nvidia/RTX3050.md
+      - RTX 3060 Ti: GPU/Nvidia/RTX3060Ti.md
+      - RTX 3070: GPU/Nvidia/RTX3070.md
+      - RTX 3080: GPU/Nvidia/RTX3080.md
+      - RTX 4060: GPU/Nvidia/RTX4060.md
+      - RTX 4070 Ti SUPER: GPU/Nvidia/RTX4070TiSUPER.md
+      - RTX 4080 SUPER: GPU/Nvidia/RTX4080SUPER.md
+      - RTX 4090: GPU/Nvidia/RTX4090.md
+      - A100: GPU/Nvidia/A100.md
+      - H100: GPU/Nvidia/H100.md
+      - B200: GPU/Nvidia/B200.md
+    - AMD:
+      - Radeon RX 7600: GPU/AMD/RadeonRX7600.md
+      - Radeon RX 7700 XT: GPU/AMD/RadeonRX7700XT.md
+      - Radeon RX 7900 XTX: GPU/AMD/RadeonRX7900XTX.md
+      - Radeon PRO W7900: GPU/AMD/RadeonPROW7900.md
+    - Intel:
+      - Arc A580: GPU/Intel/ArcA580.md
+      - Arc A750: GPU/Intel/ArcA750.md
+      - Arc A770: GPU/Intel/ArcA770.md
+
+  - Motherboard:
+    - ASUS:
+      - ROG Strix Z790-E Gaming WiFi: Motherboard/ASUS/ROGStrixZ790-EGamingWiFi.md
+      - TUF Gaming B650-Plus WiFi: Motherboard/ASUS/TUFGamingB650-PlusWiFi.md
+      - Prime Z790-A: Motherboard/ASUS/PrimeZ790-A.md
+    - MSI:
+      - MAG X870 Tomahawk WiFi: Motherboard/MSI/MAGX870TomahawkWiFi.md
+      - MPG B650 Carbon WiFi: Motherboard/MSI/MPGB650CarbonWiFi.md
+      - MEG X670E Ace: Motherboard/MSI/MEGX670EAce.md
+    - Gigabyte:
+      - AORUS Master X670E: Motherboard/Gigabyte/AORUSMasterX670E.md
+      - B650 AORUS Elite AX: Motherboard/Gigabyte/B650AORUSEliteAX.md
+      - Z790 AORUS Elite AX: Motherboard/Gigabyte/Z790AORUSEliteAX.md
+    - ASRock:
+      - B850 Steel Legend WiFi: Motherboard/ASRock/B850SteelLegendWiFi.md
+      - X670E Taichi: Motherboard/ASRock/X670ETaichi.md
+      - B650M PG Riptide: Motherboard/ASRock/B650MPGRiptide.md
+    - Others:
+      - EVGA:
+        - Z690 DARK K|NGP|N: Motherboard/Others/EVGA/Z690DARKKNGPN.md
+      - Supermicro:
+        - X13DAI-T: Motherboard/Others/Supermicro/X13DAI-T.md
+      - Biostar:
+        - B650MT: Motherboard/Others/Biostar/B650MT.md
+
+  - Tags: tags/tags.md
+
+copyright: Copyright &copy; 2025 Alexis Carbillet
+
+theme: 
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+  - media: "(prefers-color-scheme: dark)"
+    scheme: default
+    primary: black
+    accent: indigo
+    toggle:
+      icon: material/toggle-switch-off
+      name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: slate
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to dark mode
+
+plugins:
+  - blog:
+      authors_file: blog/.authors.yml
+  - search:
+      lang: en
+      pipeline:
+        - stemmer
+        - stopWordFilter
+        - trimmer
+  - tags:
+      tags_file: tags/tags.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/solid/house
+      link: https://alexis-carbillet.com/
+    - icon: fontawesome/solid/code
+      link: https://ac-coding.com/
+    - icon: fontawesome/solid/cat
+      link: https://all-about-cats.uk/
+    - icon: fontawesome/solid/bolt
+      link: https://ac-electricity.com/

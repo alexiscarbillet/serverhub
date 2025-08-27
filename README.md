@@ -1,12 +1,10 @@
-# React + Vite
+# AC-ServerHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AC-ServerHub is a website dedicated to cloud computing, server hardware, and IT infrastructure. Here, you will find detailed information, guides, and insights about building, optimizing, and managing servers and computing environments.
 
-Currently, two official plugins are available:
+So far, the site covers several categories:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Cloud Providers**: Information and tutorials on AWS, GCP, Azure, and other cloud platforms.  
+- **CPUs**: Explains different processors, architectures, and performance comparisons.  
+- **GPUs**: Covers graphics cards, compute accelerators, and their use in servers and AI workloads.  
+- **Motherboards**: Guides on server and desktop motherboards, features, and compatibility.

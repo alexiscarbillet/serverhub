@@ -1,0 +1,9 @@
+{# overrides/base.html #}
+{% extends "base.html" %}
+
+{# Bloc extrahead pour ajouter des meta et scripts personnalisés #}
+{% block extrahead %}
+  {{ super() }}
+  {# Inclusion de ton fichier extrahead.html #}
+  {% include "partials/extrahead.html" %}
+{% endblock %}
