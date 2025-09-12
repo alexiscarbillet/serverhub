@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - MSI
+---
+
 # MSI MPG B650 Carbon WiFi: High-Performance Motherboard for AMD Ryzen Builds
 
 The **MSI MPG B650 Carbon WiFi** is a **premium motherboard** designed for **AMD Ryzen 7000 series processors**. It combines **modern features, connectivity, and performance** to deliver a solid foundation for gaming and content creation systems.

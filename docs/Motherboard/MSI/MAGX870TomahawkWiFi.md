@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - MSI
+---
+
 # MSI MAG X870 Tomahawk WiFi: Robust Motherboard for AMD Enthusiasts
 
 The **MSI MAG X870 Tomahawk WiFi** is a **high-end motherboard** built for **AMD Ryzen 7000 series processors**, offering **stability, advanced connectivity, and thermal performance**. It is ideal for **gamers and content creators seeking a reliable AMD platform**.

@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - ASUS
+---
+
 # ASUS Prime Z790-A: High-Performance Motherboard for Intel Enthusiasts
 
 The **ASUS Prime Z790-A** is a **premium motherboard** designed for **Intel 13th and 12th Gen Core processors**, offering **robust performance, expandability, and modern connectivity**. It targets both **enthusiast gamers and content creators** seeking a balanced and powerful platform.

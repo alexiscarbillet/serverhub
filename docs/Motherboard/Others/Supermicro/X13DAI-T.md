@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - Supermicro
+---
+
 **Supermicro X13DAI-T Motherboard Review: A High-Performance Platform for Dual Xeon Systems**
 
 The Supermicro X13DAI-T is a high-end workstation motherboard designed to support Intel's 4th and 5th Generation Xeon Scalable processors. Built on the LGA-4677 (Socket E) platform, it caters to professionals requiring substantial computational power, such as those in AI, data analytics, and scientific research.

@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - Intel
+---
+
 # Intel Arc A750: High-Performance GPU for Gaming and Creative Work
 
 The **Intel Arc A750** is a **high-performance graphics card** built on Intel’s **Alchemist architecture**, designed for **1440p gaming and GPU-accelerated creative workloads**. It offers modern features like ray tracing and AI-enhanced upscaling.

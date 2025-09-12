@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - AMD
+---
+
 # AMD Radeon RX 7600: Mid-Range GPU for Gaming and Creative Work
 
 The **AMD Radeon RX 7600** is a **mid-range graphics card** designed for **1080p and 1440p gaming**, offering **efficient performance with modern AMD features** such as ray tracing and FidelityFX Super Resolution (FSR).

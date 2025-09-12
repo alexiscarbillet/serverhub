@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - Gigabytes
+---
+
 # Gigabyte AORUS Master X670E: Premium AMD Motherboard for Enthusiasts
 
 The **Gigabyte AORUS Master X670E** is a **high-end motherboard** designed for **AMD Ryzen 7000 series processors**, delivering **exceptional performance, connectivity, and cooling solutions**. It is perfect for **gamers, content creators, and PC enthusiasts** seeking a top-tier AMD platform.

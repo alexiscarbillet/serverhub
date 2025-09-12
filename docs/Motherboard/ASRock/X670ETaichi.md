@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - ASRock
+---
+
 # ASRock X670E Taichi: Premium AMD Motherboard for Enthusiasts and Creators
 
 The **ASRock X670E Taichi** is a **high-end motherboard** designed for **AMD Ryzen 7000 series processors**, offering **cutting-edge performance, advanced connectivity, and exceptional durability**. It is ideal for **gamers, content creators, and PC enthusiasts** building top-tier AMD systems.

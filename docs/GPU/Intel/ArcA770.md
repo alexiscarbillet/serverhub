@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - Intel
+---
+
 # Intel Arc A770: Top-Tier GPU for Gaming and Content Creation
 
 The **Intel Arc A770** is a **high-end graphics card** based on Intel’s **Alchemist architecture**, designed for **1440p and 4K gaming, as well as professional creative workloads**. It delivers modern GPU features including ray tracing and AI-enhanced upscaling.

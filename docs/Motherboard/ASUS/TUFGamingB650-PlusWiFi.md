@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - ASUS
+---
+
 # ASUS TUF Gaming B650-Plus WiFi: Durable and High-Performance Motherboard for AMD Builds
 
 The **ASUS TUF Gaming B650-Plus WiFi** is a **mid-to-high-end motherboard** designed for **AMD Ryzen 7000 series processors**. It combines **durability, reliable performance, and modern connectivity** for gamers and PC builders seeking a robust platform.

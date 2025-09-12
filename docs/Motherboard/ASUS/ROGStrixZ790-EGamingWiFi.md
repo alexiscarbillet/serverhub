@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - ASUS
+---
+
 # ASUS ROG Strix Z790-E Gaming WiFi: Premium Motherboard for Enthusiasts
 
 The **ASUS ROG Strix Z790-E Gaming WiFi** is a **high-end motherboard** built for **Intel 13th and 12th Gen Core processors**, offering **cutting-edge performance, connectivity, and overclocking capabilities**. It is designed for **gaming enthusiasts and content creators** who demand top-tier hardware.

@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - ASRock
+---
+
 # ASRock B650M PG Riptide: Compact and Reliable AMD Motherboard
 
 The **ASRock B650M PG Riptide** is a **micro-ATX motherboard** designed for **AMD Ryzen 7000 series processors**, offering **solid performance, modern connectivity, and a compact form factor**. It is ideal for **gamers and content creators building smaller AMD systems**.

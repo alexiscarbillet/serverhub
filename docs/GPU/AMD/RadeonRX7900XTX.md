@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - AMD
+---
+
 # AMD Radeon RX 7900 XTX: Enthusiast GPU for 4K Gaming and Creative Work
 
 The **AMD Radeon RX 7900 XTX** is a **high-end graphics card** built on AMD’s **RDNA 3 architecture**, designed for **4K gaming, VR, and professional content creation**. It delivers top-tier performance with **advanced ray tracing and AI-enhanced features**.

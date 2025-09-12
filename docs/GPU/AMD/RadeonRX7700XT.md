@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - AMD
+---
+
 # AMD Radeon RX 7700 XT: High-Performance GPU for Gaming and Content Creation
 
 The **AMD Radeon RX 7700 XT** is a **high-performance graphics card** designed for **1440p and entry-level 4K gaming**, leveraging AMD’s **RDNA 3 architecture**. It delivers excellent performance for both gaming and creative workloads.

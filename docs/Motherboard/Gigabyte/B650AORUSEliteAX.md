@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - Gigabytes
+---
+
 # Gigabyte B650 AORUS Elite AX: Reliable AMD Motherboard for Gaming and Productivity
 
 The **Gigabyte B650 AORUS Elite AX** is a **mid-to-high-end motherboard** built for **AMD Ryzen 7000 series processors**, combining **modern connectivity, durability, and performance**. It is designed for **gamers and content creators seeking a solid AMD platform**.

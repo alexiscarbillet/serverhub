@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - EVGA
+---
+
 # **EVGA Z690 DARK K|NGP|N Motherboard Review: Extreme Overclocking for Enthusiasts**
 
 The EVGA Z690 DARK K|NGP|N is a flagship motherboard tailored for extreme overclocking enthusiasts and competitive gamers. Designed to harness the full potential of Intel's 12th and 13th Gen Alder Lake and Raptor Lake processors, this motherboard offers robust power delivery, advanced cooling solutions, and a suite of features aimed at pushing hardware to its limits.

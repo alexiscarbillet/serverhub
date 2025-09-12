@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - MSI
+---
+
 # MSI MEG X670E Ace: Flagship Motherboard for AMD Enthusiasts
 
 The **MSI MEG X670E Ace** is a **top-tier motherboard** designed for **AMD Ryzen 7000 series processors**, offering **cutting-edge performance, connectivity, and expandability**. It is ideal for **enthusiasts, gamers, and content creators** building high-end AMD systems.

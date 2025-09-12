@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - ASRock
+---
+
 # ASRock B850 Steel Legend WiFi: Durable and Feature-Rich Motherboard for Intel Builds
 
 The **ASRock B850 Steel Legend WiFi** is a **mid-to-high-end motherboard** designed for **Intel 14th/13th Gen Core processors**, offering **reliability, modern connectivity, and robust performance**. It is suitable for **gamers, content creators, and PC builders** seeking a dependable Intel platform.

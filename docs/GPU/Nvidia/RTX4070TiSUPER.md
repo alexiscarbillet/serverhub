@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - Nvidia
+---
+
 # Nvidia RTX 4070 Ti SUPER: High-End GPU for Next-Gen Gaming and Creative Workflows
 
 The **Nvidia GeForce RTX 4070 Ti SUPER** is a **high-end graphics card** based on Nvidia’s **Ada Lovelace architecture**, designed for gamers and creators seeking **top-tier performance at 1440p and 4K resolutions**. It combines high CUDA cores, ray tracing, and DLSS 3 support for modern gaming and AI workloads.

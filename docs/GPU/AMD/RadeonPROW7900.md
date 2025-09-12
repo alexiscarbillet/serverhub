@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - AMD
+---
+
 # AMD Radeon PRO W7900: Professional GPU for Workstations and Content Creation
 
 The **AMD Radeon PRO W7900** is a **professional-grade graphics card** designed for **workstations, 3D rendering, CAD, and creative workflows**. Built on AMD’s **RDNA 3 architecture**, it delivers **reliable performance, high memory capacity, and enterprise-grade features** for professional users.

@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - Intel
+---
+
 # Intel Arc A580: Mid-Range GPU for Gaming and Creative Work
 
 The **Intel Arc A580** is a **mid-range graphics card** designed for **1080p to 1440p gaming** and content creation. Built on Intel’s **Alchemist architecture**, it delivers modern GPU features including ray tracing and AI-enhanced graphics.

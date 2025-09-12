@@ -1,3 +1,9 @@
+---
+tags:
+  - Motherboard
+  - Gigabytes
+---
+
 # Gigabyte Z790 AORUS Elite AX: High-Performance Motherboard for Intel Builds
 
 The **Gigabyte Z790 AORUS Elite AX** is a **premium motherboard** designed for **Intel 13th and 12th Gen Core processors**, offering **robust performance, connectivity, and thermal management**. It is ideal for **gamers, content creators, and PC enthusiasts** seeking a high-end Intel platform.

@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - Nvidia
+---
+
 # Nvidia RTX 4080 SUPER: Enthusiast GPU for 4K Gaming and Creative Professionals
 
 The **Nvidia GeForce RTX 4080 SUPER** is a **top-tier graphics card** based on Nvidia’s **Ada Lovelace architecture**, designed for gamers, content creators, and professionals who demand **extreme performance at 4K resolutions**. It combines a high CUDA core count, ray tracing, and DLSS 3 support to deliver immersive gaming and accelerated creative workflows.

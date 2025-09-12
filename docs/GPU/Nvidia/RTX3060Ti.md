@@ -1,3 +1,9 @@
+---
+tags:
+  - GPU
+  - Nvidia
+---
+
 # Nvidia RTX 3060 Ti: Mid-Range GPU with Ray Tracing and AI Acceleration
 
 The **Nvidia GeForce RTX 3060 Ti** is a **mid-range gaming graphics card** built on the **Ampere architecture**. It offers **excellent 1080p and 1440p gaming performance**, along with advanced features like ray tracing and DLSS.
