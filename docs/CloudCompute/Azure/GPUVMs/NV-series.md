@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - Azure
+  - GPU
+---
+
 # Azure NV-Series: GPU-Optimized Virtual Machines for Visualization
 
 Microsoft Azure offers the **NV-series**, a family of **GPU-accelerated virtual machines** designed for graphics-intensive workloads, visualization, and virtual desktops. NV-series VMs are ideal for applications requiring high-performance GPU rendering and remote visualization.

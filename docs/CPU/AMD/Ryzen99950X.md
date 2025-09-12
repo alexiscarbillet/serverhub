@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - AMD
+---
+
 # AMD Ryzen 9 9950X: Ultra-High-Performance Desktop CPU
 
 The **AMD Ryzen 9 9950X** is a **flagship desktop processor** in the Ryzen 9 lineup, designed for **enthusiasts, content creators, and professionals** who need the highest levels of multi-threaded performance. It excels in gaming, rendering, and heavy computational workloads.

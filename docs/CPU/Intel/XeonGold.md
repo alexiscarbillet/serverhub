@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - Intel
+---
+
 # Intel Xeon Gold: High-Performance Processors for Enterprise and Data Centers
 
 The **Intel Xeon Gold** series is part of Intel’s **Scalable Xeon family**, designed for **high-performance enterprise workloads, cloud computing, and data center applications**. Xeon Gold CPUs provide a balance of **high core counts, advanced reliability, and strong performance** for demanding environments.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - Azure
+  - GPU
+---
+
 # Azure ND-Series: AI and Deep Learning GPU Virtual Machines
 
 Microsoft Azure offers the **ND-series**, a family of **GPU-optimized virtual machines** designed specifically for **AI training, deep learning, and high-performance compute workloads**. ND-series VMs combine powerful NVIDIA GPUs with high-performance CPUs and fast interconnects for large-scale AI and HPC tasks.

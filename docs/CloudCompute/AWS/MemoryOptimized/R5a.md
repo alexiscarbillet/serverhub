@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - Memory optimized
+---
+
 # AWS R5a Instances: Cost-Effective Memory-Optimized Compute
 
 Amazon Web Services (AWS) provides multiple EC2 instance families tailored to different workloads. For applications that require **high memory capacity**, the **R5 family** is specifically designed to handle memory-intensive tasks. Within this family, **R5a instances** offer a **cost-efficient alternative** powered by **AMD EPYC processors**.

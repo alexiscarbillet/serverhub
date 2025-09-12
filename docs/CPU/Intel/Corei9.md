@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - Intel
+---
+
 # Intel Core i9: Extreme Performance Processors for Power Users
 
 The **Intel Core i9** series represents the **top-tier desktop and laptop CPUs** in Intel’s mainstream consumer lineup. Core i9 processors are designed for **high-performance computing, gaming, content creation, and professional workloads** requiring maximum speed and efficiency.

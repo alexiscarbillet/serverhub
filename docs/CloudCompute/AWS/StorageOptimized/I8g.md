@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - Storage optimized
+---
+
 ## AWS EC2 I8g Instances: High-Performance Storage-Optimized Compute
 
 Amazon Web Services (AWS) continually evolves its infrastructure offerings to meet the growing demands of modern applications. The **I8g instances** are the latest addition to AWS's storage-optimized EC2 instance family, designed to deliver exceptional performance for data-intensive workloads.

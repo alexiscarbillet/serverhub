@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - AllInference
+---
+
 # Amazon EC2 Trn1 Instances: Accelerating Generative AI Training
 
 Amazon Web Services (AWS) has introduced EC2 Trn1 instances, powered by AWS Trainium chips, to meet the growing demands of high-performance deep learning (DL) training. These instances are purpose-built for training large-scale generative AI models, including large language models (LLMs) and vision models.

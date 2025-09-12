@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - Azure
+  - GPU
+---
+
 # Azure NC-Series: GPU-Optimized Virtual Machines
 
 Microsoft Azure offers the **NC-series**, a family of **GPU-optimized virtual machines** designed for high-performance computing (HPC), AI, and deep learning workloads. NC-series VMs combine powerful NVIDIA GPUs with high-performance CPUs for compute-intensive tasks.

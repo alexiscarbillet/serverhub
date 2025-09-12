@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - GCP
+  - Compute optimized
+---
+
 # Google Cloud C2D Instances: AMD-Powered Compute-Optimized VMs
 
 Google Cloud Platform (GCP) offers the **C2D instance family**, a compute-optimized virtual machine series powered by **AMD EPYC Milan processors**. C2D instances are designed for high-performance, CPU-intensive workloads, providing excellent price-to-performance for modern compute tasks.

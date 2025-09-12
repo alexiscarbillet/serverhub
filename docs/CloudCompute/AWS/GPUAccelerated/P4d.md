@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - GPU
+---
+
 # AWS EC2 P4d Instances: High-Performance GPU Compute for ML and HPC
 
 Amazon Web Services (AWS) offers a range of EC2 instances optimized for various workloads. Among these, the **P4d instances** stand out as high-performance solutions equipped with NVIDIA A100 Tensor Core GPUs, making them ideal for machine learning (ML) training and high-performance computing (HPC) applications.

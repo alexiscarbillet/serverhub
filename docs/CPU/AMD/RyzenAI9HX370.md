@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - AMD
+---
+
 # AMD Ryzen AI 9 HX 370: High-Performance AI-Focused Desktop Processor
 
 The **AMD Ryzen AI 9 HX 370** is a **cutting-edge processor** designed for **AI workloads, gaming, and high-performance computing**. It integrates advanced AI acceleration with high core counts and clock speeds for demanding desktop and workstation environments.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - Azure
+  - Memory optimized
+---
+
 # Azure Mv2-Series: Memory-Optimized Virtual Machines
 
 Microsoft Azure offers the **Mv2-series**, a family of **memory-optimized virtual machines** designed for workloads that require extremely high memory capacity. These instances are ideal for enterprise-grade databases, in-memory analytics, and high-performance computing tasks.

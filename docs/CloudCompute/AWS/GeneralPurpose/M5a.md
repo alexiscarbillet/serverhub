@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - General Purpose
+---
+
 # Understanding AWS M5a Instances: A Cost-Effective General Purpose Option
 
 Amazon Web Services (AWS) offers a wide variety of EC2 instance families designed for different workloads. Among them, the **M5a instances** stand out as a general-purpose option optimized for both performance and cost savings. If you’re evaluating the right compute option for your applications, M5a can be an excellent choice, especially when balancing price and performance.

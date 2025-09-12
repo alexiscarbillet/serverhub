@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - AllInference
+---
+
 # Amazon EC2 Inf2 Instances: Optimized for High-Performance AI Inference
 
 Amazon Web Services (AWS) has introduced **EC2 Inf2 instances**, the latest generation of inference-optimized instances powered by AWS **Inferentia2 chips**. Designed specifically for large-scale machine learning inference, Inf2 instances offer high throughput, low latency, and cost-efficient performance for deploying AI models in production.

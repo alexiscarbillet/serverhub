@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - AllInference
+---
+
 # Amazon EC2 Trn2 Instances: Revolutionizing Generative AI Training
 
 Amazon Web Services (AWS) has introduced EC2 Trn2 instances, powered by the second generation of AWS Trainium chips, designed to meet the growing demands of large-scale generative AI training and inference workloads. These instances offer significant advancements in performance, scalability, and cost-efficiency compared to previous generations.

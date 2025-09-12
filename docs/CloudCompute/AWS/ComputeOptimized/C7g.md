@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - Compute Optimized
+---
+
 # AWS C7g Instances: Next-Generation Compute with AWS Graviton3
 
 AWS has steadily evolved its compute-optimized EC2 families to deliver higher performance and better cost efficiency. The **C7g family** is the latest in this line, powered by the **AWS Graviton3 processors**—custom silicon designed by AWS using Arm architecture. With significant performance improvements over Graviton2-based C6g instances, C7g is ideal for modern compute-intensive workloads.

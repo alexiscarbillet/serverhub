@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - AMD
+---
+
 # AMD Ryzen 9 9900X: Enthusiast Desktop CPU for Extreme Performance
 
 The **AMD Ryzen 9 9900X** is a **high-end desktop processor** designed for gamers, content creators, and enthusiasts seeking **maximum performance**. With multiple cores and threads, it is ideal for both single-threaded and heavily multi-threaded workloads.

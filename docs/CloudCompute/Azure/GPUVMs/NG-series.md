@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - Azure
+  - GPU
+---
+
 # Azure NG-Series: Next-Generation GPU Virtual Machines
 
 Microsoft Azure offers the **NG-series**, a family of **next-generation GPU-accelerated virtual machines** designed for cutting-edge AI, machine learning, and graphics workloads. NG-series VMs provide high GPU performance, enhanced memory, and fast networking for demanding compute tasks.

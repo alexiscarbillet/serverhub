@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - Intel
+---
+
 # Intel Xeon Platinum: Ultra-High-Performance Processors for Enterprise and Cloud
 
 The **Intel Xeon Platinum** series is the **top-tier line of Intel Xeon Scalable processors**, designed for **enterprise, cloud, and mission-critical data center workloads**. Xeon Platinum CPUs provide **maximum cores, memory capacity, and reliability** for the most demanding computing environments.

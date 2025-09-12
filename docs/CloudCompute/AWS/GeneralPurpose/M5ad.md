@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - General Purpose
+---
+
 # Exploring AWS M5ad Instances: General Purpose with Local NVMe Storage
 
 When it comes to Amazon EC2 instances, AWS offers a wide range of flavors tailored to specific needs. For workloads that require both **general-purpose compute power** and **fast local storage**, the **M5ad instances** stand out. Built on AMD EPYC processors and equipped with NVMe-based SSD storage, they deliver a balance of price, performance, and storage flexibility.

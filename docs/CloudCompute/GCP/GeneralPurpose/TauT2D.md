@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - GCP
+  - General purpose
+---
+
 # Google Cloud Tau T2D Instances: High-Performance Cost-Optimized Compute
 
 Google Cloud Platform (GCP) offers the **Tau T2D instance family**, a general-purpose VM series powered by **2nd Generation AMD EPYC processors**. Tau T2D instances are designed to deliver high performance per dollar, making them ideal for cost-conscious workloads without compromising on compute efficiency.

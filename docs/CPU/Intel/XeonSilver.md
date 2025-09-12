@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - Intel
+---
+
 # Intel Xeon Silver: Reliable Performance for Business and Cloud Workloads
 
 The **Intel Xeon Silver** series is part of Intel’s **Xeon Scalable processors**, designed for **entry-level to mid-range servers, cloud computing, and business applications**. Xeon Silver CPUs balance performance, efficiency, and reliability for enterprise workloads.

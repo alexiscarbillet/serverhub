@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - Intel
+---
+
 # Intel Core i7: High-Performance Processors for Advanced Computing
 
 The **Intel Core i7** series represents **high-performance desktop and laptop processors**, designed for demanding workloads, gaming, and professional applications. Core i7 CPUs offer more cores, higher clock speeds, and advanced features compared to Core i5 processors.

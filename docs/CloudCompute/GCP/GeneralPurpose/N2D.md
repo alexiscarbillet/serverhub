@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - GCP
+  - General purpose
+---
+
 # Google Cloud N2D Instances: AMD-Powered General-Purpose Compute
 
 Google Cloud Platform (GCP) provides the **N2D instance family**, a next-generation general-purpose VM series powered by **AMD EPYC Rome processors**. N2D instances are optimized for high performance, cost efficiency, and scalability, making them ideal for a wide range of enterprise workloads.

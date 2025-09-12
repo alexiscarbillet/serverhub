@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - GPU
+---
+
 # AWS EC2 G4dn Instances: Cost-Effective GPU-Powered Compute
 
 Amazon Web Services (AWS) offers a range of EC2 instances optimized for various workloads. Among these, the **G4dn instances** stand out as cost-effective solutions equipped with NVIDIA T4 Tensor Core GPUs, making them ideal for machine learning inference and graphics-intensive applications.

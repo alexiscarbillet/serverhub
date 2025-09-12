@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - AMD
+---
+
 # AMD Ryzen 7 9700X: High-Performance Desktop CPU for Gamers and Creators
 
 The **AMD Ryzen 7 9700X** is a **high-performance desktop processor** designed for gamers, content creators, and PC enthusiasts who require more cores and threads than mid-range CPUs. It delivers excellent multi-threaded and single-threaded performance.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - Compute Optimized
+---
+
 # **AWS C8g Instances: Graviton4–Powered Compute with Next-Level Performance**
 
 Amazon’s compute-optimized lineup continues to evolve, and the **C8g family** represents the latest leap forward. Powered by **AWS Graviton4** processors, these instances deliver substantial performance gains for compute-intensive workloads—perfect for modern, demanding applications.

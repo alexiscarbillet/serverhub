@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - Compute Optimized
+---
+
 # AWS C6g Instances: Compute-Optimized Power with AWS Graviton2
 
 Amazon Web Services (AWS) offers a wide portfolio of EC2 instances optimized for different workloads. Among them, the **C6g family** is part of the **compute-optimized** line, designed to deliver high performance at low cost for compute-intensive applications. What makes C6g instances stand out is that they are powered by the **AWS Graviton2 processors**—custom silicon built by AWS using Arm architecture.

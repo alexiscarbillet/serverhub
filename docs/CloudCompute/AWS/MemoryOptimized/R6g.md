@@ -1,3 +1,10 @@
+---
+tags:
+  - Cloud compute
+  - AWS
+  - Memory optimized
+---
+
 # AWS R6g Instances: Next-Generation Memory-Optimized Performance with Graviton2
 
 Amazon Web Services (AWS) offers a variety of EC2 instance families tailored to specific workloads. The **R6g family** is part of AWS’s **memory-optimized instances**, built to deliver **high memory performance at a lower cost**. What sets R6g apart is that it is powered by **AWS Graviton2 processors**, offering both efficiency and scalability for modern workloads.

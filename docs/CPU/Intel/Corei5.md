@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - Intel
+---
+
 # Intel Core i5: Mid-Range Performance for Everyday Computing
 
 The **Intel Core i5** series is a line of **mid-range desktop and laptop processors** offering a balanced mix of performance, efficiency, and affordability. Core i5 CPUs are widely used in personal computers, gaming rigs, and business workstations.

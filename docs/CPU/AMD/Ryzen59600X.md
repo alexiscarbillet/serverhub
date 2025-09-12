@@ -1,3 +1,9 @@
+---
+tags:
+  - CPU
+  - AMD
+---
+
 # AMD Ryzen 5 9600X: Mid-Range Desktop CPU for Gaming and Productivity
 
 The **AMD Ryzen 5 9600X** is a **mid-range desktop processor** designed for gamers, content creators, and general PC enthusiasts. It offers a balanced combination of performance, efficiency, and affordability, making it ideal for mainstream desktop builds.
