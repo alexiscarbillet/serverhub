@@ -68,6 +68,61 @@ Discover the backbone of any computer build — motherboards — along with thei
 
 This section helps you choose the right motherboard that matches your CPU and GPU to unlock full system potential.
 
+---
+
+### **RAM (Memory Modules)**
+
+Explore memory options for desktops, workstations, and servers:
+
+* **Corsair**
+  Popular models like **Vengeance LPX DDR4/32GB**, **Dominator Platinum DDR5/64GB**, and **Trident Z5 RGB DDR5/32GB**.
+
+* **G.Skill**
+  High-performance RAM for gaming and professional use, including **Trident Z5 RGB** and **Fury Beast DDR4**.
+
+* **Supermicro & Kingston**
+  Reliable ECC modules such as **Supermicro 32GB ECC DDR4** and **64GB DDR5 RDIMM ECC** for server stability.
+
+Understand memory types, capacities, and speeds to optimize system performance and reliability.
+
+---
+
+### **Storage**
+
+Get to know hard drives and SSDs from top brands for consumer and enterprise use:
+
+* **Seagate**
+  Including **IronWolf Pro 20TB** for NAS and high-capacity storage solutions.
+
+* **Western Digital**
+  Models like **WD Gold 16TB**, **WD Red Pro 14TB**, and **WD Black NVMe SSDs**.
+
+* **Samsung & Micron**
+  High-performance NVMe drives such as **990 PRO**, **PM9A3**, **CM7**, **T700**, **P5800X Optane**, and **9400 NVMe**.
+
+Learn about storage types, endurance, and interfaces to select the right solution for speed, capacity, and reliability.
+
+---
+
+### **Network**
+
+Explore networking hardware for servers, workstations, and high-performance environments:
+
+* **Intel**
+  NICs like **X550-T2**, **IPU E2000**, and **T62100-CR** for high-speed connectivity.
+
+* **Broadcom**
+  High-throughput cards such as **NetXtreme E2100** and **T62100-CR**.
+
+* **Mellanox / NVIDIA**
+  Smart NICs and DPUs including **ConnectX-6** and **BlueField-3 DPU** for ultra-low-latency and programmable offload tasks.
+
+* **Solarflare**
+  Low-latency NICs like **SFN8522** for financial trading and HPC workloads.
+
+This section helps you choose the right network adapter to optimize throughput, latency, and virtualization support.
+
+---
 
 ## About the author
 
