@@ -127,6 +127,58 @@ nav:
         - X13DAI-T: Motherboard/Others/Supermicro/X13DAI-T.md
       - Biostar:
         - B650MT: Motherboard/Others/Biostar/B650MT.md
+  - Storage:
+    - Seagate:
+      - Exos X20: Storage/Seagate/ExosX20.md
+      - IronWolf Pro 20TB: Storage/Seagate/IronWolfPro20TB.md
+    - Western Digital:
+      - WD Gold 16TB: Storage/WesternDigital/WDGold16TB.md
+      - WD Red Pro 14TB: Storage/WesternDigital/WDRedPro14TB.md
+    - Samsung:
+      - 990 PRO: Storage/Samsung/990PRO.md
+      - PM9A3: Storage/Samsung/PM9A3.md
+    - Crucial:
+      - T700: Storage/Crucial/T700.md
+    - Intel:
+      - P5800X Optane: Storage/Intel/P5800XOptane.md
+    - Micron:
+      - 9400 NVMe: Storage/Micron/9400NVMe.md
+    - Kioxia:
+      - CM7: Storage/Kioxia/CM7.md
+    - Others:
+      - Toshiba MG09 18TB: Storage/Others/Toshiba/MG0918TB.md
+      - Hynix Platinum P41: Storage/Others/Hynix/PlatinumP41.md
+
+  - RAM:
+    - Corsair:
+      - Vengeance LPX DDR4 32GB: RAM/Corsair/VengeanceLPXDDR432GB.md
+      - Dominator Platinum DDR5 64GB: RAM/Corsair/DominatorPlatinumDDR564GB.md
+    - G.Skill:
+      - Trident Z5 RGB DDR5 32GB: RAM/GSkill/TridentZ5RGBDDR532GB.md
+    - Kingston:
+      - Fury Beast DDR4 16GB: RAM/Kingston/FuryBeastDDR416GB.md
+    - Samsung:
+      - 64GB DDR5 RDIMM ECC: RAM/Samsung/64GBDDR5RDIMMECC.md
+    - Micron:
+      - 32GB DDR4 RDIMM ECC: RAM/Micron/32GBDDR4RDIMMECC.md
+    - Others:
+      - Hynix 64GB DDR5 RDIMM: RAM/Others/Hynix/64GBDDR5RDIMM.md
+      - Supermicro 32GB ECC DDR4: RAM/Others/Supermicro/32GBECCDDR4.md
+
+  - Network:
+    - Intel:
+      - X550-T2: Network/Intel/X550-T2.md
+      - IPU E2000: Network/Intel/IPUE2000.md
+    - Broadcom:
+      - NetXtreme E2100: Network/Broadcom/NetXtremeE2100.md
+    - Mellanox (Nvidia):
+      - ConnectX-6: Network/Mellanox/ConnectX-6.md
+    - Nvidia:
+      - BlueField-3 DPU: Network/Nvidia/BlueField3DPU.md
+    - Others:
+      - Solarflare SFN8522: Network/Others/Solarflare/SFN8522.md
+      - Chelsio T62100-CR: Network/Others/Chelsio/T62100-CR.md
+
 
   - Tags: tags/tags.md
 
