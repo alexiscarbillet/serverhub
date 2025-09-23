@@ -64,6 +64,7 @@ nav:
         - NG-series: CloudCompute/Azure/GPUVMs/NG-series.md
 
   - CPU:
+    - How it works: CPU/CPU.md
     - Intel:
       - Core i5: CPU/Intel/Corei5.md
       - Core i7: CPU/Intel/Corei7.md
