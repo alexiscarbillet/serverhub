@@ -16,7 +16,7 @@ This is often called the **fetch–decode–execute cycle**.
 
 ---
 
-# 1. The Building Blocks of a CPU
+## 1. The Building Blocks of a CPU
 
 ### 1.1 Transistors
 
@@ -35,7 +35,7 @@ This is often called the **fetch–decode–execute cycle**.
 
 ---
 
-# 2. The Core Components of a CPU
+## 2. The Core Components of a CPU
 
 ### 2.1 Registers
 
@@ -71,7 +71,7 @@ This is often called the **fetch–decode–execute cycle**.
 
 ---
 
-# 3. The Instruction Cycle
+## 3. The Instruction Cycle
 
 Here’s how your CPU runs a program instruction (like `ADD R1, R2`):
 
@@ -89,7 +89,7 @@ This repeats over and over, extremely fast.
 
 ---
 
-# 4. Modern CPU Enhancements
+## 4. Modern CPU Enhancements
 
 CPUs have evolved beyond this simple cycle.
 
@@ -127,7 +127,7 @@ CPUs have evolved beyond this simple cycle.
 
 ---
 
-# 5. CPU vs Memory Speed
+## 5. CPU vs Memory Speed
 
 * CPUs are **much faster** than RAM.
 * That’s why **caches** are critical.
@@ -144,7 +144,7 @@ So modern CPUs try to **hide memory latency** by predicting and pre-loading what
 
 ---
 
-# 6. Example in Action
+## 6. Example in Action
 
 Say your program has:
 
@@ -171,7 +171,7 @@ Behind the scenes, the CPU might pipeline all of these so they overlap.
 
 ---
 
-# 7. Limits and Trends
+## 7. Limits and Trends
 
 * **Heat & power**: Faster clocks = more heat, so CPUs shifted to **multicore** and efficiency improvements.
 * **Specialization**: Workloads like AI or graphics often offload to GPUs, TPUs, or NPUs.
