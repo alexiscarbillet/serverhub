@@ -80,6 +80,15 @@ nav:
       - EPYC 9554: CPU/AMD/EPYC9554.md
       - EPYC 9754: CPU/AMD/EPYC9754.md
       - Ryzen AI 9 HX 370: CPU/AMD/RyzenAI9HX370.md
+  - ARM:
+    - Apple M1: CPU/ARM/AppleM1.md
+    - Apple M2: CPU/ARM/AppleM2.md
+    - Apple M3: CPU/ARM/AppleM3.md
+    - AWS Graviton3: CPU/ARM/Graviton3.md
+    - AWS Graviton4: CPU/ARM/Graviton4.md
+    - Ampere Altra Max: CPU/ARM/AmpereAltraMax.md
+    - NVIDIA Grace: CPU/ARM/NvidiaGrace.md
+    - Qualcomm Snapdragon X Elite: CPU/ARM/SnapdragonXElite.md
 
   - GPU:
     - Nvidia:
