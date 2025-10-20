@@ -64,7 +64,7 @@ nav:
         - NG-series: CloudCompute/Azure/GPUVMs/NG-series.md
 
   - CPU:
-    - How it works: CPU/CPU.md
+    - How CPU works: CPU/CPU.md
     - Intel:
       - Core i5: CPU/Intel/Corei5.md
       - Core i7: CPU/Intel/Corei7.md
@@ -91,6 +91,10 @@ nav:
       - Qualcomm Snapdragon X Elite: CPU/ARM/SnapdragonXElite.md
 
   - GPU:
+    - How GPU works: GPU/GPU.md
+    - GPU choosing: GPU/choosing-gpu.md
+    - GPU monitoring: GPU/gpu-monitoring.md
+    - How to setup CUDA: GPU/cuda-setup.md
     - Nvidia:
       - RTX 3050: GPU/Nvidia/RTX3050.md
       - RTX 3060 Ti: GPU/Nvidia/RTX3060Ti.md
@@ -175,7 +179,7 @@ nav:
       - Hynix 64GB DDR5 RDIMM: RAM/Others/Hynix/64GBDDR5RDIMM.md
       - Supermicro 32GB ECC DDR4: RAM/Others/Supermicro/32GBECCDDR4.md
 
-  - Network:
+  - Network Interface Card:
     - Intel:
       - X550-T2: Network/Intel/X550-T2.md
       - IPU E2000: Network/Intel/IPUE2000.md
