@@ -118,6 +118,7 @@ nav:
       - Arc A770: GPU/Intel/ArcA770.md
 
   - Motherboard:
+    - How Motherboard works: Motherboard/Motherboard.md
     - ASUS:
       - ROG Strix Z790-E Gaming WiFi: Motherboard/ASUS/ROGStrixZ790-EGamingWiFi.md
       - TUF Gaming B650-Plus WiFi: Motherboard/ASUS/TUFGamingB650-PlusWiFi.md
@@ -141,7 +142,10 @@ nav:
         - X13DAI-T: Motherboard/Others/Supermicro/X13DAI-T.md
       - Biostar:
         - B650MT: Motherboard/Others/Biostar/B650MT.md
+
   - Storage:
+    - How Storage works: Storage/Storage.md
+    - Understanding RAID: Storage/RAID.md
     - Seagate:
       - Exos X20: Storage/Seagate/ExosX20.md
       - IronWolf Pro 20TB: Storage/Seagate/IronWolfPro20TB.md
@@ -164,6 +168,7 @@ nav:
       - Hynix Platinum P41: Storage/Others/Hynix/PlatinumP41.md
 
   - RAM:
+    - How RAM works: RAM/RAM.md
     - Corsair:
       - Vengeance LPX DDR4 32GB: RAM/Corsair/VengeanceLPXDDR432GB.md
       - Dominator Platinum DDR5 64GB: RAM/Corsair/DominatorPlatinumDDR564GB.md
@@ -180,6 +185,7 @@ nav:
       - Supermicro 32GB ECC DDR4: RAM/Others/Supermicro/32GBECCDDR4.md
 
   - Network Interface Card:
+    - How Network Interface Card works: Network/Network.md
     - Intel:
       - X550-T2: Network/Intel/X550-T2.md
       - IPU E2000: Network/Intel/IPUE2000.md
