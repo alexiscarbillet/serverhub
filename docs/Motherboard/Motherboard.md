@@ -117,3 +117,5 @@ While the CPU or GPU often gets the spotlight, the motherboard’s role is criti
 | BIOS/UEFI          | Firmware initialization  | Configuration interface |
 
 The **motherboard is the foundation** of your system. Choosing the right one ensures smooth performance, stable power delivery, and the flexibility to upgrade over time.
+
+You can find more information on [ac-electricity.com](https://ac-electricity.com/hardware/motherboard/).

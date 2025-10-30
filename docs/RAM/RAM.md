@@ -156,3 +156,5 @@ When RAM runs out, the OS uses **virtual memory**:
 | Frequency & Latency  | Determine speed and responsiveness         |
 
 RAM is the **fast working memory** of a computer. It plays a crucial role in performance, multitasking, and system responsiveness. Choosing the right type and amount of RAM can significantly affect how smoothly your system runs.
+
+You can find more information on [ac-electricity.com](https://ac-electricity.com/hardware/ram/).

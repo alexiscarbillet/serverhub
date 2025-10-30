@@ -139,3 +139,4 @@ Understanding how GPUs work is the first step in **optimizing your server infras
 - [Choosing the Right GPU for Your Server](choosing-gpu.md)  
 - [How to Monitor GPU Usage on Linux](gpu-monitoring.md)  
 - [Setting Up CUDA on Ubuntu](cuda-setup.md)
+- [ac-electricity.com](https://ac-electricity.com/hardware/gpu/)

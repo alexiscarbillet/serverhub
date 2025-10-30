@@ -177,3 +177,5 @@ Healthy storage is crucial for performance and data safety. Common tools and met
 | Interfaces           | Control data transfer speed and connectivity       |
 
 Storage is the **foundation of data persistence** in computing. Choosing the right type of storage — and managing it properly — impacts speed, reliability, and overall system performance.
+
+You can find more information on [ac-electricity.com](https://ac-electricity.com/hardware/storage/).
