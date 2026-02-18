@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /overrides/
 Disallow: /docs/
 
-Sitemap: https://ac-serverhub.com/sitemap.xml
+Sitemap: https://hardware.alexis-carbillet.com/sitemap.xml
