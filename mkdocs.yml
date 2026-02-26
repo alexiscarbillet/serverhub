@@ -73,6 +73,8 @@ nav:
       - Xeon Silver: CPU/Intel/XeonSilver.md
       - Xeon Gold: CPU/Intel/XeonGold.md
       - Xeon Platinum: CPU/Intel/XeonPlatinum.md
+      - Core Ultra 7: CPU/Intel/CoreUltra7.md
+      - Core Ultra 9: CPU/Intel/CoreUltra9.md
     - AMD:
       - Ryzen 5 9600X: CPU/AMD/Ryzen59600X.md
       - Ryzen 7 9700X: CPU/AMD/Ryzen79700X.md
