@@ -37,6 +37,7 @@ nav:
         - N4: CloudCompute/GCP/GeneralPurpose/N4.md
         - E2: CloudCompute/GCP/GeneralPurpose/E2.md
         - Tau T2D: CloudCompute/GCP/GeneralPurpose/TauT2D.md
+        - C4: CloudCompute/GCP/GeneralPurpose/C4.md
       - ComputeOptimized:
         - C2: CloudCompute/GCP/ComputeOptimized/C2.md
         - C2D: CloudCompute/GCP/ComputeOptimized/C2D.md
