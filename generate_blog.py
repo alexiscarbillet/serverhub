@@ -2,20 +2,21 @@ import os
 import json
 import random
 import re
-from datetime import datetime
 from google import genai
 from ruamel.yaml import YAML
 
 # 1. Configuration & Client Setup
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+
 yaml = YAML()
 yaml.preserve_quotes = True
+yaml.width = 4096  # CRITICAL: Prevents titles from wrapping to new lines
 yaml.indent(mapping=2, sequence=4, offset=2)
 
 CONFIG_PATH = 'mkdocs.yml'
 HISTORY_PATH = 'topic_history.json'
 
-# Updated categories to match the new nav structure
+# Mapped to the new nav structure
 FOLDER_MAP = {
     "Market Trends & Buying Guides": "analysis/market",
     "Benchmarks & Performance": "analysis/benchmarks",
@@ -24,11 +25,14 @@ FOLDER_MAP = {
 }
 
 def sanitize_title(title_text):
-    return title_text.replace(':', '').replace('#', '').strip()
+    """Removes problematic characters for YAML."""
+    return title_text.replace(':', '').replace('#', '').replace('"', '').strip()
 
 def slugify(text):
+    """Creates a clean filename, limited to 10 words to avoid path errors."""
     temp = text.lower().replace(" ", "_").replace("-", "_")
-    return re.sub(r'[^a-z0-9_]', '', temp)
+    temp = re.sub(r'[^a-z0-9_]', '', temp)
+    return "_".join(temp.split("_")[:10]) 
 
 def get_new_content():
     if os.path.exists(HISTORY_PATH):
@@ -39,25 +43,24 @@ def get_new_content():
 
     category = random.choice(list(FOLDER_MAP.keys()))
     
-    # Advanced Hardware Prompt
+    # Prompt refined for brevity and technical depth
     prompt = f"""
-    Role: Expert Computer Hardware Architect & Lead Benchmarker.
+    Role: Expert Computer Hardware Architect.
     Task: Write a deep-dive technical article for a hardware documentation site.
-    
     Category: {category}
     Avoid these previous topics: {', '.join(history[-10:])}
     
     Requirements:
-    1. Title: Create a professional, SEO-friendly H1 title.
-    2. Architecture Focus: Mention specific architectures (e.g., NVIDIA Blackwell, AMD Zen 5, Intel Lunar Lake, ARMv9).
-    3. Technical Table: Include a detailed Markdown table comparing 3 relevant hardware components (Specs, TDP, Price, Performance).
-    4. Formulas: Use LaTeX for technical calculations (e.g., Memory Bandwidth: $BW = f \times d \times n$).
-    5. Tone: Technical, objective, and analytical.
+    1. Title: Create a punchy H1 title (MAX 5 WORDS). No colons or quotes.
+    2. Content: Focus on hardware specs (e.g., PCIe 6.0, TDP, Cuda Cores, IPC gains).
+    3. Architecture: Mention specific tech (e.g., Blackwell, Zen 5, Arrow Lake).
+    4. Technical Table: A Markdown table comparing relevant components.
+    5. Formulas: Use LaTeX for any performance calculations ($inline$).
     
     Formatting:
     - Output ONLY raw Markdown.
-    - Do NOT use ```markdown code fences.
     - Start directly with the # H1 Title.
+    - Do NOT use ```markdown fences.
     """
 
     response = client.models.generate_content(
@@ -67,7 +70,7 @@ def get_new_content():
     
     raw_content = response.text.strip()
     
-    # Cleaning fences if AI ignores instructions
+    # Clean up any potential markdown fences
     raw_content = re.sub(r'^```markdown\n', '', raw_content)
     raw_content = re.sub(r'^```\n', '', raw_content)
     raw_content = re.sub(r'\n```$', '', raw_content)
@@ -75,6 +78,8 @@ def get_new_content():
     lines = raw_content.split('\n')
     raw_title = lines[0].replace('# ', '').strip()
     clean_title = sanitize_title(raw_title)
+    
+    # Re-inject short title
     lines[0] = f"# {clean_title}"
     
     return category, slugify(clean_title) + ".md", "\n".join(lines), clean_title
@@ -85,13 +90,13 @@ def update_nav(category_name, file_path, title):
 
     nav = config.get('nav', [])
     
-    # Recursive search for the category in the nested nav
     def add_to_nav_recursive(nav_list, target_cat, new_entry):
         for item in nav_list:
             if isinstance(item, dict):
                 for key, value in item.items():
                     if key == target_cat:
-                        if value is None: item[key] = []
+                        if value is None or isinstance(value, str): 
+                            item[key] = []
                         item[key].append(new_entry)
                         return True
                     if isinstance(value, list):
@@ -102,7 +107,6 @@ def update_nav(category_name, file_path, title):
     success = add_to_nav_recursive(nav, category_name, {title: file_path})
     
     if not success:
-        # Fallback: add to the end of nav if category not found
         nav.append({category_name: [{title: file_path}]})
 
     with open(CONFIG_PATH, 'w') as f:
@@ -117,7 +121,6 @@ full_path = f"docs/{relative_folder}/{fname}"
 with open(full_path, "w") as f:
     f.write(content)
 
-# Update MkDocs Nav with the relative path used by MkDocs
 update_nav(cat, f"{relative_folder}/{fname}", title)
 
 # Update history
@@ -128,4 +131,4 @@ else:
 history.append(title)
 with open(HISTORY_PATH, "w") as f: json.dump(history, f)
 
-print(f"Successfully generated: {title} -> {full_path}")
+print(f"Successfully generated: {title}")
