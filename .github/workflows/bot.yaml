@@ -1,0 +1,47 @@
+name: Weekly Electricity Blog Post
+
+on:
+  push: # Trigger on push for debugging
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * 3'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install "mkdocs<2.0" "mkdocs-material>=9.5" google-genai mkdocs-minify-plugin ruamel.yaml
+
+      - name: Run Generator
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python generate_blog.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          # 'docs/' adds everything in the docs folder recursively
+          # 'mkdocs.yml' is needed because the script updates the nav
+          # 'topic_history.json' is needed for the AI memory
+          git add docs/ mkdocs.yml topic_history.json
+          
+          # Only commit if there are actually changes to avoid Action failure
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated Blog Post and Nav Update" && git push)
+
+      - name: Deploy
+        run: mkdocs gh-deploy --force

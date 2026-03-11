@@ -202,6 +202,12 @@ nav:
       - Solarflare SFN8522: Network/Others/Solarflare/SFN8522.md
       - Chelsio T62100-CR: Network/Others/Chelsio/T62100-CR.md
 
+  - Hardware Analysis:
+      - Market Trends & Buying Guides: []
+      - Benchmarks & Performance: []
+  - Infrastructure & DIY:
+      - Homelab & Server Projects: []
+      - Smart Home Hardware: []
 
   - Tags: tags/tags.md
 
