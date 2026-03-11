@@ -123,10 +123,8 @@ nav:
   - Motherboard:
       - How Motherboard works: Motherboard/Motherboard.md
       - ASUS:
-          - ROG Strix Z790-E Gaming WiFi: 
-              Motherboard/ASUS/ROGStrixZ790-EGamingWiFi.md
-          - TUF Gaming B650-Plus WiFi: 
-              Motherboard/ASUS/TUFGamingB650-PlusWiFi.md
+          - ROG Strix Z790-E Gaming WiFi: Motherboard/ASUS/ROGStrixZ790-EGamingWiFi.md
+          - TUF Gaming B650-Plus WiFi: Motherboard/ASUS/TUFGamingB650-PlusWiFi.md
           - Prime Z790-A: Motherboard/ASUS/PrimeZ790-A.md
       - MSI:
           - MAG X870 Tomahawk WiFi: Motherboard/MSI/MAGX870TomahawkWiFi.md
@@ -176,8 +174,7 @@ nav:
       - How RAM works: RAM/RAM.md
       - Corsair:
           - Vengeance LPX DDR4 32GB: RAM/Corsair/VengeanceLPXDDR432GB.md
-          - Dominator Platinum DDR5 64GB: 
-              RAM/Corsair/DominatorPlatinumDDR564GB.md
+          - Dominator Platinum DDR5 64GB: RAM/Corsair/DominatorPlatinumDDR564GB.md
       - G.Skill:
           - Trident Z5 RGB DDR5 32GB: RAM/GSkill/TridentZ5RGBDDR532GB.md
       - Kingston:
@@ -212,6 +209,7 @@ nav:
       - Homelab & Server Projects:
           - Building a Next-Gen Homelab Deep Dive into High-Performance Architectures and Component Selection: infrastructure/homelab/building_a_next_gen_homelab_deep_dive_into_high_performance_architectures_and_component_selection.md
           - Optimizing Homelab Efficiency A Deep Dive into Low-Power Server Architectures: infrastructure/homelab/optimizing_homelab_efficiency_a_deep_dive_into_low_power_server_architectures.md
+          - Homelab Powerhouse Unlocking Future Performance: infrastructure/homelab/homelab_powerhouse_unlocking_future_performance.md
       - Smart Home Hardware: []
 
   - Tags: tags/tags.md
