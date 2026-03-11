@@ -1,4 +1,4 @@
-name: Weekly Electricity Blog Post
+name: Weekly Hardware Blog Post
 
 on:
   push: # Trigger on push for debugging
