@@ -203,7 +203,8 @@ nav:
           - Chelsio T62100-CR: Network/Others/Chelsio/T62100-CR.md
 
   - Hardware Analysis:
-      - Market Trends & Buying Guides: []
+      - Market Trends & Buying Guides:
+          - High Performance Desktop Silicon Trends: analysis/market/high_performance_desktop_silicon_trends.md
       - Benchmarks & Performance: []
   - Infrastructure & DIY:
       - Homelab & Server Projects:
