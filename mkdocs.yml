@@ -224,6 +224,7 @@ nav:
           - Smart Home Hardware Unification: infrastructure/smart_home/smart_home_hardware_unification.md
           - Smart Home Hardware's Raw Power: infrastructure/smart_home/smart_home_hardwares_raw_power.md
           - Next Generation Home Automation Silicon: infrastructure/smart_home/next_generation_home_automation_silicon.md
+          - Edge AI Silicon Architecture: infrastructure/smart_home/edge_ai_silicon_architecture.md
   - Tags: tags/tags.md
 
 copyright: Copyright &copy; 2025 Alexis Carbillet
