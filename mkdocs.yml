@@ -208,6 +208,7 @@ nav:
       - Benchmarks & Performance:
           - Decoding High Performance Silicon Metrics: analysis/benchmarks/decoding_high_performance_silicon_metrics.md
           - Scaling Heterogeneous Compute Interconnects: analysis/benchmarks/scaling_heterogeneous_compute_interconnects.md
+          - Peak Bandwidth and Core Density: analysis/benchmarks/peak_bandwidth_and_core_density.md
   - Infrastructure & DIY:
       - Homelab & Server Projects:
           - Building a Next-Gen Homelab Deep Dive into High-Performance Architectures and Component Selection: infrastructure/homelab/building_a_next_gen_homelab_deep_dive_into_high_performance_architectures_and_component_selection.md
