@@ -205,6 +205,7 @@ nav:
   - Hardware Analysis:
       - Market Trends & Buying Guides:
           - High Performance Desktop Silicon Trends: analysis/market/high_performance_desktop_silicon_trends.md
+          - Next Gen Component Buying Guide: analysis/market/next_gen_component_buying_guide.md
       - Benchmarks & Performance:
           - Decoding High Performance Silicon Metrics: analysis/benchmarks/decoding_high_performance_silicon_metrics.md
           - Scaling Heterogeneous Compute Interconnects: analysis/benchmarks/scaling_heterogeneous_compute_interconnects.md
