@@ -230,6 +230,7 @@ nav:
           - Next Generation Home Automation Silicon: infrastructure/smart_home/next_generation_home_automation_silicon.md
           - Edge AI Silicon Architecture: infrastructure/smart_home/edge_ai_silicon_architecture.md
           - Blackwell Driven Smart Home Hubs: infrastructure/smart_home/blackwell_driven_smart_home_hubs.md
+          - High Performance Home Hub Architecture: infrastructure/smart_home/high_performance_home_hub_architecture.md
   - Tags: tags/tags.md
 
 copyright: Copyright &copy; 2025 Alexis Carbillet
