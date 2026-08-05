@@ -219,6 +219,7 @@ nav:
           - Homelab Horizons Advancing Performance: infrastructure/homelab/homelab_horizons_advancing_performance.md
           - Scaling Next Gen Server Silicon: infrastructure/homelab/scaling_next_gen_server_silicon.md
           - Architecting Zen 5 Homelab Nodes: infrastructure/homelab/architecting_zen_5_homelab_nodes.md
+          - Arrow Lake Blackwell Homelab Integration: infrastructure/homelab/arrow_lake_blackwell_homelab_integration.md
       - Smart Home Hardware:
           - Smart Home Edge AI Unleashed: infrastructure/smart_home/smart_home_edge_ai_unleashed.md
 
