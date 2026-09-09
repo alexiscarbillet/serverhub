@@ -224,6 +224,7 @@ nav:
           - Architecting Zen 5 Homelab Nodes: infrastructure/homelab/architecting_zen_5_homelab_nodes.md
           - Arrow Lake Blackwell Homelab Integration: infrastructure/homelab/arrow_lake_blackwell_homelab_integration.md
           - PAM4 Signaling in Homelab Fabrics: infrastructure/homelab/pam4_signaling_in_homelab_fabrics.md
+          - Optimizing Next Gen Compute Fabrics: infrastructure/homelab/optimizing_next_gen_compute_fabrics.md
       - Smart Home Hardware:
           - Smart Home Edge AI Unleashed: infrastructure/smart_home/smart_home_edge_ai_unleashed.md
 
