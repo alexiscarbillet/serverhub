@@ -237,6 +237,7 @@ nav:
           - Edge AI Silicon Architecture: infrastructure/smart_home/edge_ai_silicon_architecture.md
           - Blackwell Driven Smart Home Hubs: infrastructure/smart_home/blackwell_driven_smart_home_hubs.md
           - High Performance Home Hub Architecture: infrastructure/smart_home/high_performance_home_hub_architecture.md
+          - Scaling Local Vision Compute Nodes: infrastructure/smart_home/scaling_local_vision_compute_nodes.md
   - Tags: tags/tags.md
 
 copyright: Copyright &copy; 2025 Alexis Carbillet
