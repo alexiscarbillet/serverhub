@@ -213,6 +213,7 @@ nav:
           - Scaling Heterogeneous Compute Interconnects: analysis/benchmarks/scaling_heterogeneous_compute_interconnects.md
           - Peak Bandwidth and Core Density: analysis/benchmarks/peak_bandwidth_and_core_density.md
           - Next Gen Compute Performance Metrics: analysis/benchmarks/next_gen_compute_performance_metrics.md
+          - Benchmarking Next Generation Silicon Throughput: analysis/benchmarks/benchmarking_next_generation_silicon_throughput.md
   - Infrastructure & DIY:
       - Homelab & Server Projects:
           - Building a Next-Gen Homelab Deep Dive into High-Performance Architectures and Component Selection: infrastructure/homelab/building_a_next_gen_homelab_deep_dive_into_high_performance_architectures_and_component_selection.md
