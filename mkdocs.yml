@@ -227,6 +227,7 @@ nav:
           - PAM4 Signaling in Homelab Fabrics: infrastructure/homelab/pam4_signaling_in_homelab_fabrics.md
           - Optimizing Next Gen Compute Fabrics: infrastructure/homelab/optimizing_next_gen_compute_fabrics.md
           - CXL 3.0 Fabric Implementation Guide: infrastructure/homelab/cxl_30_fabric_implementation_guide.md
+          - Cooling Zen 5 Blackwell Clusters: infrastructure/homelab/cooling_zen_5_blackwell_clusters.md
       - Smart Home Hardware:
           - Smart Home Edge AI Unleashed: infrastructure/smart_home/smart_home_edge_ai_unleashed.md
 
