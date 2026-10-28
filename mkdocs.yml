@@ -209,6 +209,7 @@ nav:
           - Future Workstation Silicon Data Fabrics: analysis/market/future_workstation_silicon_data_fabrics.md
           - Mastering 2025 Performance Hardware: analysis/market/mastering_2025_performance_hardware.md
           - Navigating Next Gen Hardware Shifts: analysis/market/navigating_next_gen_hardware_shifts.md
+          - Next Gen High Bandwidth Architecture: analysis/market/next_gen_high_bandwidth_architecture.md
       - Benchmarks & Performance:
           - Decoding High Performance Silicon Metrics: analysis/benchmarks/decoding_high_performance_silicon_metrics.md
           - Scaling Heterogeneous Compute Interconnects: analysis/benchmarks/scaling_heterogeneous_compute_interconnects.md
