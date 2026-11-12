@@ -66,7 +66,7 @@ def get_new_content():
     - Do NOT use ```markdown fences.
     """
 
-    model = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
+    model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
     try:
         response = client.models.generate_content(
             model=model, 
