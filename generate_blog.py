@@ -6,7 +6,10 @@ from google import genai
 from ruamel.yaml import YAML
 
 # 1. Configuration & Client Setup
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+client = genai.Client(
+    api_key=os.environ.get("GEMINI_API_KEY"),
+    http_options={"api_version": "v1beta"}
+)
 
 yaml = YAML()
 yaml.preserve_quotes = True
@@ -63,10 +66,22 @@ def get_new_content():
     - Do NOT use ```markdown fences.
     """
 
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview", 
-        contents=prompt
-    )
+    model = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
+    try:
+        response = client.models.generate_content(
+            model=model, 
+            contents=prompt
+        )
+    except Exception as e:
+        if "404" in str(e) or "NOT_FOUND" in str(e) or "not found" in str(e).lower():
+            fallback_model = "gemini-2.5-flash"
+            print(f"⚠️ Warning: Model '{model}' failed ({e}). Retrying with fallback model '{fallback_model}'...")
+            response = client.models.generate_content(
+                model=fallback_model,
+                contents=prompt
+            )
+        else:
+            raise
     
     raw_content = response.text.strip()
     
