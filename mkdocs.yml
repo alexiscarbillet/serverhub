@@ -232,6 +232,7 @@ nav:
           - Optimizing Next Gen Compute Fabrics: infrastructure/homelab/optimizing_next_gen_compute_fabrics.md
           - CXL 3.0 Fabric Implementation Guide: infrastructure/homelab/cxl_30_fabric_implementation_guide.md
           - Cooling Zen 5 Blackwell Clusters: infrastructure/homelab/cooling_zen_5_blackwell_clusters.md
+          - Future-Proof Homelab Server Builds: infrastructure/homelab/future_proof_homelab_server_builds.md
       - Smart Home Hardware:
           - Smart Home Edge AI Unleashed: infrastructure/smart_home/smart_home_edge_ai_unleashed.md
 
